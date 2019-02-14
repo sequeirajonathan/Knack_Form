@@ -1,0 +1,99 @@
+#kn-app-header img {
+  min-width: 11vw;
+  max-width: 11vw;
+  height: auto;
+}
+
+#Box {
+  border: 1px solid red;
+  width: 400px;
+}
+
+p {
+  width: 200px;
+  margin-left: 40%;
+  display: block;
+}
+
+dl dt {
+  margin-left: 0;
+}
+
+#missing {
+  padding: 1.5rem 0.5rem;
+  color: rgb(169, 68, 66);
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  min-height: 5.5vh;
+}
+
+input#field_30,
+input#field_51,
+input#field_31,
+input#field_286,
+input#field_288,
+input#field_289,
+input#view_383-field_258,
+input#view_383-field_258-time,
+input#field_259,
+input#field_296,
+input#field_294,
+input#field_302,
+input#field_307,
+input#field_315,
+input#field_317,
+input#field_339,
+input#field_340,
+input#field_351,
+input#field_353,
+input#field_354{
+  background-color: #ebebe4;
+}
+
+div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.prevent-close,
+div.ui-timepicker-wrapper {
+  display: none !important;
+}
+
+a.kn-button.search,
+.reset,
+input[name="keyword"],
+.kn-add-filter.kn-button.is-small {
+  display: none !important;
+}
+
+.kn-table.kn-view.view_313 {
+  margin-bottom: 0 !important;
+}
+
+.total h3 {
+  margin-bottom: 3em;
+}
+
+input#field_315,
+label[for="field_315"],
+input#field_326,
+label[for="field_326"],
+.kn-input.kn-input-connection.control {
+  visibility: hidden;
+}
+
+.customer-details {
+  margin: 5vw auto; 
+}
+
+.customer-details p{
+  padding-top: .5vw;
+}
+
+.kn-content blockquote:not(:last-child), .kn-content ol:not(:last-child), .kn-content p:not(:last-child), .kn-content ul:not(:last-child) {
+    margin-bottom: 0 !important;
+}
+
+.danger {
+  background-color: #fddfde;
+  border-color: #fbc7c6;
+}
